@@ -1,0 +1,112 @@
+ {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #000;
+  font-size: 1rem; /* Используем rem для масштабирования шрифта */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+ul, li {
+  display: block;
+  list-style-type: none; /* Убираем маркеры списка */
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px; /* Добавляем отступы для мобильных устройств */
+}
+
+.header {
+  background: url('../img/logo.svg') no-repeat center top;
+  background-size: contain; /* Масштабируем логотип под контейнер */
+}
+
+header li {
+  color: #000;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between; /* Распределяем элементы меню равномерно */
+}
+
+.menu li {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.5rem; /* Используем rem для масштабирования шрифта */
+}
+
+.selection {
+  padding-top: 1.75rem; /* Используем rem для масштабирования отступа */
+}
+
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.p1 {
+  font-size: 1.5625rem; /* Используем rem для масштабирования шрифта */
+  font-weight: bold;
+}
+
+.desc-left p {
+  margin-top: 1.25rem; /* Используем rem для масштабирования отступа */
+}
+
+.p2 {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5625rem;
+  text-align: center;
+  font-size: 2rem; /* Используем rem для масштабирования шрифта */
+}
+
+.button1, .button2, .button3, .button4 {
+  border: 0;
+  background: linear-gradient(to right, #F4C464, #F89B3E);
+  padding: 1.875rem 2.625rem; /* Используем rem для масштабирования отступа */
+  text-decoration: none;
+  color: black;
+  border-radius: 1.4375rem; /* Используем rem для масштабирования радиуса */
+  font-size: 1.375rem; /* Используем rem для масштабирования шрифта */
+  box-shadow: 0px 0.25rem 2.1875rem #F4C464;
+}
+
+.btn2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.4375rem; /* Используем rem для масштабирования отступа */
+}
+
+/* Медиа-запросы для небольших экранов */
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column; /* Меняем направление элементов меню на вертикальное */
+    align-items: center; /* Центрируем элементы меню */
+  }
+
+  .menu li {
+    margin-bottom: 1rem; /* Добавляем отступ между элементами меню */
+  }
+
+  .btn2 {
+    flex-direction: column; /* Меняем направление кнопок на вертикальное */
+    align-items: center; /* Центрируем кнопки */
+  }
+
+  .button1, .button2, .button3, .button4 {
+    margin-bottom: 1rem; /* Добавляем отступ между кнопками */
+  }
+}
