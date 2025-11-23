@@ -140,7 +140,7 @@ margin: 40px;
 }
 .box{
   width: 170px;
-  height: 350px;
+  height: 360px;
   background: linear-gradient( 40deg,#F4C464, #F89B3E);
   border: 1px solid white;
   border-radius: 23px;
@@ -158,13 +158,13 @@ margin: 40px;
   margin-top: 20px;
 }
 .p{
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   margin-top: 1px;
   margin-left: 15px;
 }
 .p1{
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   margin-top: 6px;
   margin-left: 15px;
@@ -172,8 +172,8 @@ margin: 40px;
 .p2{
   font-size: 14px;
   text-align: left;
-  margin-top: 30px;
-  margin-left: 15px;
+  margin-top: 10px;
+  margin-left: 15px
 }
 .p3{
   font-size: 12px;
@@ -204,6 +204,7 @@ font-size: 14px
 	width: 75px;
 }
 }
+
 
 
 
