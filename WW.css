@@ -158,14 +158,98 @@ margin-top: -10px;
   text-align: center;
   margin-top: 15px;
 }
-@media screen and (max-width: 575px) {
-   .container {
-  width: 100%;
-  padding: 0 15px;}
-}
 .audio{
   display: flex;
   justify-content: center;
   margin: 10px;
   margin-top: -10px;
+
+}
+@media screen and (max-width: 575px) {
+   .container {
+  width: 350px;
+  padding: 0 15px;}
+  .menu li {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+}
+  .golova{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+.box{
+width: 600px;
+height: 160px;
+}
+.img{ 
+  width: 120px;
+  height: 200px;
+}
+.p{
+  font-size: 12px;
+}
+.boxes{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 170px);
+  gap: 20px;
+  margin: 20px;
+}
+.box1{
+  width: 170px;
+  height: 358px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 1px solid white;
+  border-radius: 23px;
+}
+.box2{
+    width: 170px;
+  height: 465px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 1px solid white;
+  border-radius: 23px;
+}
+.img1{
+  width: 150px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.p1{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.p2{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.img2{
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.button1{
+font-size: 16px;
+  padding: 20px 100px;
+}
+.img4{
+  width: 70px;
+  height: 70px;
+}
+.btn1{
+font-size: 16px;
+}
 }
