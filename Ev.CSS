@@ -161,3 +161,92 @@ margin: 30px;
   justify-content: center;
   margin: 20px;
 }
+@media screen and (max-width: 575px) {
+   .container {
+  width: 340px;
+  padding: 0 15px;}
+  .boxes{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 170px);
+  gap: 12px;
+  margin: 20px;}
+  .box{
+  width: 170px;
+  height: 329px;}
+  .images{
+  width: 91%;
+  margin: 8px;
+  margin-top: 10px;
+}
+  .box1{
+  width: 170px;
+  height: 470px;
+}
+  .box2{
+  width: 170px;
+  height: 270px;}
+  .box3{
+  width: 360px;
+  height: 275px;}
+  .images1{
+  width: 340px;
+  height: 143px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: -8px
+}
+.p1{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+.p2{
+  font-size: 16px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.p3{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+.p4{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 7px;
+}
+  .p5{
+  font-size: 16px;
+  text-align: left;
+  margin-top: 2px;
+  margin-left: 25px;
+}
+.p6{
+  font-size: 16px;
+  text-align: left;
+  margin-right: 25px;
+}
+.logo{
+  width: 75px
+}
+.button1{
+padding: 20px 107px;
+border-radius: 23px;
+font-size: 16px;
+margin: 30px;
+  margin-top: 9px
+}
+  .audio{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.menu li{
+  font-size: 25px;
+  margin-left: -5px
+}
+}
