@@ -167,7 +167,7 @@ margin-top: -10px;
 }
 @media screen and (max-width: 575px) {
    .container {
-  width: 350px;
+  width: 370px;
   padding: 0 15px;}
   .menu li {
   text-transform: uppercase;
@@ -181,12 +181,20 @@ margin-top: -10px;
   margin: 40px;
 }
 .box{
-width: 600px;
-height: 160px;
+  width: 660px;
+  height: 240px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 0px solid white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  justify-content: center;
 }
 .img{ 
-  width: 120px;
-  height: 200px;
+  width: 130px;
+  height: 210px;
+  margin:
 }
 .p{
   font-size: 12px;
@@ -240,16 +248,5 @@ height: 160px;
 .btn{
   display: flex;
   justify-content: center;
-}
-.button1{
-font-size: 16px;
-  padding: 20px 100px;
-}
-.img4{
-  width: 70px;
-  height: 70px;
-}
-.btn1{
-font-size: 16px;
 }
 }
