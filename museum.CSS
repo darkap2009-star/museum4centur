@@ -53,51 +53,20 @@ selection{
 text-align: center;
 font-size: 32px;
 }
-.button1{
-border:0px solid #000;
-background:linear-gradient(to right,#F4C464, #F89B3E);
-padding: 45px 107px;
-text-decoration:none;
-color: black;
-border-radius: 23px;
-font-size: 22px;
-box-shadow: 0px 4px 35px #F4C464;
+.boxes{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 270px);
+  gap: 10px;
+  margin: 10px;
 }
-.button2{
-border:0px solid #000;
-padding: 45px 42px;
-text-decoration:none;
-color: black;
-border-radius: 23px;
-font-size: 22px;
-background: linear-gradient(to left,#F4C464, #F89B3E);
-box-shadow: 0px 4px 35px #F4C464;
-}
-.btn2{
-	display: flex;
-	justify-content: space-between;
-	margin-top: 23px;
-
-}
-.button3{
-border:0px solid #000;
-background:linear-gradient(to right,#F4C464, #F89B3E);
-padding: 45px 110px;
-text-decoration:none;
-color: black;
-border-radius: 23px;
-font-size: 22px;
-box-shadow: 0px 4px 35px #F4C464;
-}
-.button4{
-border:0px solid #000;
-background:linear-gradient(to left,#F4C464, #F89B3E);
-padding: 45px 59px;
-text-decoration:none;
-color: black;
-border-radius: 23px;
-font-size: 22px;
-box-shadow: 0px 4px 35px #F4C464;
+.box{
+  width: 270px;
+  height: 100px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 1px solid white;
+  border-radius: 23px;
 }
 @media screen and (max-width: 575px) {
 .container {
@@ -133,5 +102,23 @@ width: 75px
 .nav{
 margin-bottom: 10px
 }
+.boxes{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 174px);
+  gap: 10px;
+  margin: 10px;
 }
+.box{
+  width: 174px;
+  height: 90px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 1px solid white;
+  border-radius: 23px;
+	
+}
+}
+}
+
 
