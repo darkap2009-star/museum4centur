@@ -1,0 +1,139 @@
+body{
+	padding:0;
+	margin: 0;
+	font-family: 'Montserrat Alternates',sans-serif;
+	color: 000;
+	font-size: 22px;
+}
+h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin: 0;
+}
+.container{
+	width: 500px;
+	margin: 0 auto;
+	overflow: visible ;
+}
+.header{
+	background: url('../img/logo.svg') no-repeat center top;
+}
+.header li{
+	color: 000;
+}
+.menu{
+	display: flex;
+}
+.menu li {
+	display: block;
+	font-size: 32px;
+}
+selection{
+	padding-top: 28px;
+}
+.sod{
+	margin-top: 25px;
+	margin-bottom: -15px;
+}
+.spi ul, .spi li{
+	font-size: 22px;
+	color:000;
+}
+.boxes{
+  width: 500px;
+	margin: 0 auto;
+}
+.box{
+ background: linear-gradient(to right, #F4C464, #F89B3E); /* Градиент */
+   border-radius: 0px 23px 23px 0px;
+  padding: 0px 140px; /* Внутренние отступы */
+  display: inline-block; /* Элемент занимает только свою ширину */
+  font-size: 22px; /* Размер шрифта из вашего предыдущего CSS */
+  color: #000;
+  white-space: nowrap; /* Предотвращает перенос строки */
+  position: relative; /* Делает возможным смещение */
+  left: -60px;
+  margin-top: 20px;
+}
+.p{
+	font-size: 22px;
+  text-align: center;
+}
+.img{
+  height: 180px;
+  display: flex;
+  margin: 10px;
+}
+.box2{
+  width: 220px;
+  height: 200px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 1px solid white;
+  border-radius: 23px;
+  ddisplay: flex;
+  align-items: center
+}
+.box6{
+  width: 175px;
+  height: 200px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 1px solid white;
+  border-radius: 23px;
+  ddisplay: flex;
+  align-items: center
+}
+.boxes1{
+   display: grid;
+  align-items: center;
+  justify-content: center;
+ gap: 40px;
+}
+.img1{
+  height: 220px;
+  display: flex;
+  margin: 10px;
+}
+.box3{
+  width: 160px;
+  height: 240px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 1px solid white;
+  border-radius: 23px;
+  ddisplay: flex;
+  align-items: center
+}
+.box4{
+  width: 220px;
+  height: 240px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 1px solid white;
+  border-radius: 23px;
+  ddisplay: flex;
+  align-items: center
+}
+.box5{
+  width: 190px;
+  height: 240px;
+  background: linear-gradient( 40deg,#F4C464, #F89B3E);
+  border: 1px solid white;
+  border-radius: 23px;
+  ddisplay: flex;
+  align-items: center
+}
+.p1{
+	margin-bottom: 20px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.button1{
+border:0px solid #000;
+background:linear-gradient(to right,#F4C464, #F89B3E);
+padding: 20px 107px;
+text-decoration:none;
+color: black;
+border-radius: 23px;
+font-size: 22px;
+box-shadow: 0px 4px 35px #F4C464;
+margin: 40px;
+}
