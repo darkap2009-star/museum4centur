@@ -1,38 +1,38 @@
 body{
-	padding:0;
-	margin: 0;
-	font-family: 'Montserrat Alternates',sans-serif;
-	color: 000;
-	font-size: 22px;
+  padding:0;
+  margin: 0;
+  font-family: 'Montserrat Alternates',sans-serif;
+  color: 000;
+  font-size: 22px;
 }
 h1,h2,h3,h4,h5,h6{
-	padding:0;
-	margin: 0;
-	text-transform: uppercase;
+  padding:0;
+  margin: 0;
+  text-transform: uppercase;
 }
 ul, li{
-	display: block;
+  display: block;
 }
 .container{
-	width: 571px;
-	margin: 0 auto;
+  width: 571px;
+  margin: 0 auto;
 }
 .header{
-	background: url('../img/logo.svg') no-repeat center top;
+  background: url('../img/logo.svg') no-repeat center top;
 }
 header li{
-	color: 000;
+  color: 000;
 }
 .menu{
-	display: flex;
+  display: flex;
 }
 .menu li {
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 32px;
 }
 selection{
-	padding-top: 28px;
+  padding-top: 28px;
 }
 .boxes{
   display: grid;
@@ -122,88 +122,96 @@ margin: 40px;
 }
 @media screen and (max-width: 575px) {
    .container {
-  width: 350px;
+  width: 300px;
   padding: 0 15px;}
-	.menu li {
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 22px;
+  .menu li {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
 }
 .boxes{
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: repeat(2, 170px);
+  grid-template-columns: repeat(2, 150px);
   gap: 10px;
   margin: 10px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .box{
-  width: 170px;
-  height: 360px;
+  width: 148px;
+  height: 300px;
   background: linear-gradient( 40deg,#F4C464, #F89B3E);
   border: 1px solid white;
   border-radius: 23px;
 }
 .box1{
-  width: 170px;
-  height: 280px;
+  width: 148px;
+  height: 240px;
   background: linear-gradient( 40deg,#F4C464, #F89B3E);
   border: 1px solid white;
   border-radius: 23px;
 }
 .images{
-  width: 150px;
-  margin: 10px;
-  margin-top: 20px;
+  width: 91%;
+  margin: 6px;
+  margin-top: 10px;
 }
 .p{
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
   margin-top: 1px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .p1{
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
   margin-top: 6px;
   margin-left: 15px;
 }
 .p2{
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 15px
 }
 .p3{
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   margin: 40px;
-}}
+}
 .box2{
-   width: 350px;
-  height: 150px;
+   width: 300px;
+  height: 122px;
 }
 .img{
-  height:140px ;
-  width:150px ;
+  height:110px ;
+  width:140px ;
   margin: 10px;
-margin-left:12px;
+margin-left:10px;
 }
 .button1{
 padding: 20px 107px;
 font-size: 14px
 }
-.menu li {
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 22px;
-	margin-left: -10px;
+.menu li {;
+  text-decoration: none;
+  font-size: 22px;
+  margin-left: -10px;
 }
 .logo{
-	width: 75px;
+  width: 65px;
+}
+  .button1{
+padding: 20px 100px;
+border-radius: 23px;s
+font-size: 13px;
+margin: 0px;
+  margin-top: 30px;
+margin-bottom:40px;
 }
 }
+
 
 
 
