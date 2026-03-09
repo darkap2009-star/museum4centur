@@ -1,0 +1,85 @@
+body{
+	padding:0;
+	margin: 0;
+	font-family: 'Montserrat Alternates',sans-serif;
+	color: 000;
+	font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin: 0;
+	text-transform: uppercase;
+}
+ul, li{
+	display: block;
+}
+.container {
+  width: 300px;
+  padding: 0 15px;}
+.header{
+	background: url('../img/logo.svg') no-repeat center top;
+}
+.menu{
+	display: flex;
+}
+.menu li {
+	text-transform: none;
+	text-decoration: none;
+	font-size: 22px;
+}
+.selection{
+	padding-top: 28px;
+}
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box {
+  display: flex;        /* Выстраивает картинки в ряд */
+  overflow-x: auto;     /* Включает горизонтальную прокрутку */
+  gap: 10px;            /* Расстояние между картинками */
+  padding: 20px;        /* Чтобы картинки не прилипали к краям */
+}
+
+.img {
+  flex-shrink: 0;       /* Запрещает картинкам сжиматься */
+  width: 150px;         /* Укажите нужную ширину */
+  height: auto;
+  border-radius: 10px;  /* По желанию: скругление углов */
+}
+
+.logo{
+	width: 65px;
+}
+.golova{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.video{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.p{
+	font-size: 14px;
+	text-align: center;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.button1{
+
+border:0px solid #000;
+background:linear-gradient(to right,#F4C464, #F89B3E);
+padding: 20px 100px;
+text-decoration:none;
+color: black;
+border-radius: 100px;
+font-size: 12px;
+box-shadow: 0px 4px 35px #F4C464;
+margin: 30px;
+text-align: center;
+margin-top: 20px;
+}
