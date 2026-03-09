@@ -40,9 +40,9 @@ header li{
   margin: -15px;
 }
 .menu li {
-  text-transform: uppercase;
   text-decoration: none;
   font-size: 32px;
+  margin-left:-10px
 }
 selection{
   padding-top: 28px;
@@ -87,6 +87,11 @@ selection{
   width:250px ;
   margin: 10px;
 }
+.p1{
+  font-size: 14px;
+  margin-right:20px;
+  margin-left:20px;
+}
 .p2{
   font-size: 20px;
   margin-right: 20px;
@@ -119,12 +124,12 @@ margin: 30px;
   margin: 20px;
 
 }
+
 @media screen and (max-width: 575px) {
 .container {
-width: 340px;
+width: 300px;
 padding: 0 15px;}
   .menu li {
-  text-transform: uppercase;
   text-decoration: none;
   font-size: 22px;
 }
@@ -132,32 +137,33 @@ padding: 0 15px;}
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: repeat(2, 170px);
-  gap: 10px;
-  margin: 10px;
+  grid-template-columns: repeat(2, 150px);
+  gap: 5px;
+  margin: 5px;
 } 
 .images{
-width: 170px;
-height: 110px ;
+width: 148px;
+height: 100px ;
 margin-top: 37px;
 }
   .text{
   font-size: 12px;
 }
 .p1{
-  margin-top: -1px;
+  margin-top: 10px;
+  margin-left: 1px;
   font-size: 12px;
 }
   .boxes{
    display: grid;
   align-items: center;
   justify-content: center;
- gap: 15px;
+ gap: 10px;
     
 }
 .box{
-   width: 380px;
-  height: 142px;
+   width: 300px;
+  height: 122px;
   background: linear-gradient( 40deg,#F4C464, #F89B3E);
   border: 1px solid white;
   border-radius: 23px;
@@ -165,21 +171,26 @@ margin-top: 37px;
   align-items: center
 }
 .img{
-  height:116px ;
-  width:160px ;
+  height:106px ;
+  width:155px ;
   margin: 10px;
   
 }
 .p2{
-  font-size: 14px;
+  font-size: 12px;
   margin-right:20px;
   margin-left:20px;
+}
+.p3{
+  font-size: 12px;
+  margin-right:40px;
+  margin-left:0px;
 }
 .p{
   text-align: center;
   font-size: 12px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -200,9 +211,18 @@ margin: 50px;
 }
   .img2{
   height:116px ;
-  width:200=0px ;
+  width:100px ;
   margin: 10px;
 }
 .logo{
-  width:75px
+  width:65px
+}
+  .button1{
+padding: 20px 100px;
+border-radius: 23px;s
+font-size: 13px;
+margin: 0px;
+  margin-top: 10px;
+margin-bottom:40px;
+}
 }
