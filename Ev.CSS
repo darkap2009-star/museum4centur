@@ -158,36 +158,43 @@ margin: 30px;
 }
 @media screen and (max-width: 575px) {
    .container {
-  width: 340px;
+  width: 300px;
   padding: 0 15px;}
   .boxes{
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: repeat(2, 170px);
-  gap: 12px;
-  margin: 20px;}
+  grid-template-columns: repeat(2, 150px);
+  gap: 5px;
+  margin: 20px
+    }
+  .menu li {
+  text-transform: ;
+  text-decoration: none;
+  font-size: 22px;
+}
   .box{
-  width: 170px;
-  height: 309px;}
+  width: 148px;
+  height: 309px;
+  }
   .images{
   width: 91%;
   margin: 8px;
   margin-top: 10px;
 }
   .box1{
-  width: 170px;
+  width: 148px;
   height: 450px;
 }
   .box2{
-  width: 170px;
+  width: 148px;
   height: 230px;}
   .box3{
-  width: 360px;
-  height: 255px;}
+  width: 300px;
+  height: 264px;}
   .images1{
-  width: 340px;
-  height: 143px;
+  width: 280px;
+  height: 130px;
   margin: 10px;
   margin-top: 10px;
   margin-bottom: -8px
@@ -229,11 +236,11 @@ margin: 30px;
   width: 75px
 }
 .button1{
-padding: 20px 107px;
+padding: 20px 106px;
 border-radius: 23px;
-font-size: 14px;
+font-size: 13px;
 margin: 30px;
-  margin-top: 9px
+  margin-top: 10px
 }
   .audio{
   display: flex;
